@@ -34,19 +34,19 @@ This project predicts the selling price of used cars based on multiple features 
    git clone https://github.com/sourabh-550/Car-Price-Prediction.git
 
 
-Navigate to the project folder:
-
-cd Car-Price-Prediction
+2. Navigate to the project folder:
+    ```bash
+    cd Car-Price-Prediction
 
 
 Install dependencies:
+    ```bash
+    pip install -r requirements.txt
 
-pip install -r requirements.txt
 
-
-Run the web app (Streamlit example):
-
-streamlit run app.py
+Run the web app
+    ```bash
+    python run app.py
 
 
 Open the local URL provided in the browser to interact with the app.
