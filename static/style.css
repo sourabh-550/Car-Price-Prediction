@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(135deg, #1f1c2c, #928DAB);
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.bg-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+label {
+    font-size: 1rem;
+}
+
+.form-control, .form-select {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #66b3ff;
+    box-shadow: 0 0 0 0.2rem rgba(102, 179, 255, 0.25);
+}
+
+.btn-primary {
+    background: #007bff;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background: #3399ff;
+    transform: scale(1.05);
+}
+
+.result-box {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.price-text {
+    color: #00ff88;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+/* Fix for dropdown (select) text and menu visibility */
+select.form-select {
+    color: #fff !important;
+}
+
+select.form-select option {
+    background-color: #1f1c2c;
+    color: #fff;
+}
+
+select.form-select option:hover,
+select.form-select option:focus,
+select.form-select:focus-visible {
+    background-color: #3399ff !important;
+    color: #fff !important;
+}
+
+select.form-select option:checked {
+    background-color: #007bff !important;
+    color: #fff !important;
+}
