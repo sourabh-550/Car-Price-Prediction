@@ -39,12 +39,12 @@ This project predicts the selling price of used cars based on multiple features 
     cd Car-Price-Prediction
 
 
-Install dependencies:
+3. Install dependencies:
     ```bash
     pip install -r requirements.txt
 
 
-Run the web app
+4. Run the web app
     ```bash
     python run app.py
 
