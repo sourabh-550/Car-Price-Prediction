@@ -1,22 +1,61 @@
-# Car Price Predictor (Streamlit)
+🚗 Car Price Prediction
 
-This Streamlit app loads a pre-trained Random Forest model and a StandardScaler to predict used car prices interactively.
+End-to-end Machine Learning project predicting used car prices using regression and a Flask/Streamlit web app.
 
-Files expected in the same folder:
-- `Car_price_rf_model.pkl` - trained Random Forest model (joblib or pickle)
-- `scaler_joblib.pkl` - StandardScaler (joblib or pickle)
-- `feature_names.json` - list of feature names (in the exact order expected by the model)
+🏎 Car Price Prediction
 
-Run:
+This project predicts the selling price of used cars based on multiple features such as year of manufacture, mileage, fuel type, and transmission. It’s a complete ML workflow from data preprocessing to a web app interface for real-time predictions.
 
-```powershell
+🚀 Tech Stack
+
+Python
+
+Pandas / NumPy
+
+Scikit-learn
+
+Flask / Streamlit
+
+HTML / CSS / JavaScript (for frontend, if using Flask)
+
+📊 Features
+
+Cleans and processes car dataset
+
+Builds a Random Forest regression model
+
+Serves predictions through a web app
+
+Handles categorical encoding and feature scaling automatically
+
+🧠 What I Learned
+
+Data preprocessing and feature engineering
+
+Training, evaluating, and saving machine learning models (Pickle / Joblib)
+
+Integrating ML models with web applications for interactive predictions
+
+🏃 How to Run
+
+Clone the repo:
+
+git clone https://github.com/sourabh-550/Car-Price-Prediction.git
+
+
+Navigate to the project folder:
+
+cd Car-Price-Prediction
+
+
+Install dependencies:
+
 pip install -r requirements.txt
-streamlit run app.py
-```
 
-App highlights:
-- Dynamic input generation from `feature_names.json` (numeric fields and categorical dropdowns)
-- Scales numeric inputs using the provided scaler
-- Shows predicted price and top-10 feature importances
 
-If something breaks when loading artifacts, confirm the filenames and that they are in the same directory as `app.py`.
+Run the web app (Streamlit example):
+
+python app.py
+
+
+Open the local URL provided in the browser to interact with the app.

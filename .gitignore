@@ -26,6 +26,7 @@ env/
 *.pkl
 *.joblib
 *.h5
+*.json
 
 # Logs
 *.log
